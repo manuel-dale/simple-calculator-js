@@ -48,7 +48,7 @@ button {
     padding: 20px;
     font-size: 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     color: oklch(92.9% 0.013 255.508);
     background: linear-gradient(315deg, oklch(68.5% 0.169 237.323), oklch(74.6% 0.16 232.661));
     cursor: pointer;
