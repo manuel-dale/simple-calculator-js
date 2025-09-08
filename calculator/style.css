@@ -32,6 +32,9 @@ body {
     border: none;
     border-radius: 4px;
     background-color: oklch(92.9% 0.013 255.508);
+    box-shadow: 
+        inset 1px 1px 5px oklch(86.9% 0.022 252.894), 
+        inset -1px -1px 5px oklch(96.8% 0.007 247.896);
 }
 
 .buttons {
