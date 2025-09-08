@@ -50,8 +50,11 @@ button {
     background: linear-gradient(315deg, oklch(68.5% 0.169 237.323), oklch(74.6% 0.16 232.661));
     cursor: pointer;
     transition: background-color 0.3s ease;
+    box-shadow: 
+                inset 1px 1px 3px oklch(95.1% 0.026 236.824), 
+                inset -1px -1px 3px oklch(58.8% 0.158 241.966);
 }
 
 button:hover {
-    background-color: oklch(68.5% 0.169 237.323);
+    background: linear-gradient(315deg, oklch(74.6% 0.16 232.661), oklch(58.8% 0.158 241.966));
 }
