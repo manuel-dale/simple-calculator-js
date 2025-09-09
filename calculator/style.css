@@ -43,6 +43,13 @@ body {
     gap: 10px;
 }
 
+.lower-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+    gap: 10px;
+}
+
 .operator {
     flex: 1;
     padding: 20px;
