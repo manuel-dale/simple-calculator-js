@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    text-shadow: 1px 1px 3px oklch(70.4% 0.04 256.788);
 }
 
 body {
