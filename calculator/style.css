@@ -109,11 +109,3 @@ button:hover {
     background: linear-gradient(315deg, oklch(74.6% 0.16 232.661), oklch(58.8% 0.158 241.966));
     transform: scale(1.05);
 }
-
-.back-button {
-    background-color: #f0a500;
-    color: white;
-    border: none;
-    padding: 20px;
-    font-size: 16px;
-}
