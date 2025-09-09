@@ -70,6 +70,26 @@ body {
     transform: scale(1.05);
 }
 
+.controls {
+    flex: 1;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: oklch(92.9% 0.013 255.508);
+    background: linear-gradient(315deg, oklch(58.6% 0.253 17.585), oklch(64.5% 0.246 16.439));
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow:
+        inset 1px 1px 3px oklch(81% 0.117 11.638),
+        inset -1px -1px 3px oklch(51.4% 0.222 16.935);
+}
+
+.controls:hover {
+    background: linear-gradient(315deg, oklch(64.5% 0.246 16.439), oklch(58.6% 0.253 17.585));
+    transform: scale(1.05);
+}
+
 button {
     flex: 1;
     padding: 20px;
@@ -91,7 +111,7 @@ button:hover {
 }
 
 .back-button {
-    background-color: #f0a500; /* Example color */
+    background-color: #f0a500;
     color: white;
     border: none;
     padding: 20px;
