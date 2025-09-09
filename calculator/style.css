@@ -43,6 +43,26 @@ body {
     gap: 10px;
 }
 
+.operator {
+    flex: 1;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: oklch(92.9% 0.013 255.508);
+    background: linear-gradient(315deg, oklch(85.2% 0.199 91.936), oklch(79.5% 0.184 86.047));
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow:
+        inset 1px 1px 3px oklch(94.5% 0.129 101.54),
+        inset -1px -1px 3px oklch(55.4% 0.135 66.442);
+}
+
+.operator:hover {
+    background: linear-gradient(315deg, oklch(79.5% 0.184 86.047), oklch(85.2% 0.199 91.936));
+    transform: scale(1.05);
+}
+
 button {
     flex: 1;
     padding: 20px;
