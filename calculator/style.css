@@ -77,16 +77,16 @@ body {
     border: none;
     border-radius: 10px;
     color: oklch(92.9% 0.013 255.508);
-    background: linear-gradient(315deg, oklch(58.6% 0.253 17.585), oklch(64.5% 0.246 16.439));
+    background: linear-gradient(315deg, oklch(74.6% 0.16 232.661), oklch(68.5% 0.169 237.323));
     cursor: pointer;
     transition: background-color 0.3s ease;
     box-shadow:
-        inset 1px 1px 3px oklch(81% 0.117 11.638),
-        inset -1px -1px 3px oklch(51.4% 0.222 16.935);
+        inset 1px 1px 3px oklch(95.1% 0.026 236.824),
+        inset -1px -1px 3px oklch(58.8% 0.158 241.966);
 }
 
 .controls:hover {
-    background: linear-gradient(315deg, oklch(64.5% 0.246 16.439), oklch(58.6% 0.253 17.585));
+    background: linear-gradient(315deg, oklch(58.8% 0.158 241.966), oklch(74.6% 0.16 232.661));
     transform: scale(1.05);
 }
 
@@ -97,7 +97,7 @@ button {
     border: none;
     border-radius: 10px;
     color: oklch(92.9% 0.013 255.508);
-    background: linear-gradient(315deg, oklch(68.5% 0.169 237.323), oklch(74.6% 0.16 232.661));
+    background: linear-gradient(315deg, oklch(74.6% 0.16 232.661), oklch(68.5% 0.169 237.323));
     cursor: pointer;
     transition: background-color 0.3s ease;
     box-shadow:
@@ -106,6 +106,6 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(315deg, oklch(74.6% 0.16 232.661), oklch(58.8% 0.158 241.966));
+    background: linear-gradient(315deg, oklch(58.8% 0.158 241.966), oklch(74.6% 0.16 232.661));
     transform: scale(1.05);
 }
