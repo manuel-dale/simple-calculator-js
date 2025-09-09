@@ -27,3 +27,26 @@ function backspace() {
     const display = document.getElementById('display');
     display.value = display.value.slice(0, -1);
 }
+
+document.addEventListener('keydown', function (event) {
+    const keyPressed = event.key;
+    const validNum = '0123456789';
+    const validOper = '+-*/.';
+    console.log(keyPressed);
+
+    if (validNum.includes(keyPressed)) {
+        appendNumber(keyPressed);
+    } else if (validOper.includes(keyPressed)) {
+        appendOperator(keyPressed);
+    }
+
+    if (keyPressed === 'Backspace') {
+        backspace();
+    } else if (keyPressed === 'Enter') {
+        calculateResult();
+    } else if (keyPressed === 'Escape') {
+        clearDisplay();
+    }
+});
+
+
