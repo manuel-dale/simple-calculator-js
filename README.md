@@ -4,7 +4,7 @@ Welcome to the **Simple Calculator** project! This is a straightforward calculat
 
 ## Features
 
-- **Keyboard Input**: You can input numbers and operations directly from your keyboard, enhancing the user experience.
+- **Keyboard Input**: You can input numbers and operations directly from your keyboard.
 - **Clear Functionality**: Press the **Esc** key to clear the calculator and start fresh.
 - **Backspace Support**: Use the **Backspace** key to delete the last entered digit or operation.
 - **Equals Operation**: Press the **Enter** key to perform the calculation and see the result.
